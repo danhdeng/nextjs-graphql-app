@@ -1,8 +1,15 @@
 import {ApolloServer} from 'apollo-server-micro';
 import 'reflect-metadata';
+import { buildSchema } from 'type-graphql';
+import { PetsResolver } from '../../src/schema/pet.resolver';
+
+const schema = await buildSchema({
+  resolvers: [PetsResolver],
+});
+
 
 const server = new ApolloServer({
-
+    schema
 });
 
 export const config = {
