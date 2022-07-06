@@ -12,6 +12,9 @@ pnpm add graphql class-validator type-graphql reflect-metadata
 pnpm add @graphql-codegen/cli @graphql-codegen/typescript @graphql-codegen/typescript-operations @graphql-codegen/typescript-graphql-request @graphql-codegen/typescript-react-query -D
 
 pnpm add graphql-request@"^3.4.0 graphql-tag@^2.0.0 -D
+
+# add packages for graphql request
+pnpm add react-query graphql-request 
 # modify the tsconfig.json for the type-graphql
 
 https://typegraphql.com/docs/installation.html
