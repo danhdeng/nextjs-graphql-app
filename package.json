@@ -11,6 +11,10 @@
     "codegen-new": "graphql-codegen"
   },
   "dependencies": {
+    "@mantine/core": "^4.2.12",
+    "@mantine/form": "^4.2.12",
+    "@mantine/hooks": "^4.2.12",
+    "@mantine/next": "^4.2.12",
     "apollo-server-micro": "^3.9.0",
     "class-validator": "^0.13.2",
     "graphql": "^15.8.0",
@@ -22,6 +26,7 @@
     "react-dom": "18.2.0",
     "react-query": "^3.39.1",
     "reflect-metadata": "^0.1.13",
+    "tabler-icons-react": "^1.52.0",
     "type-graphql": "^1.1.1"
   },
   "devDependencies": {

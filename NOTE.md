@@ -15,6 +15,13 @@ pnpm add graphql-request@"^3.4.0 graphql-tag@^2.0.0 -D
 
 # add packages for graphql request
 pnpm add react-query graphql-request 
+
+# add Mantine fully featured react components
+pnpm add @mantine/core @mantine/next @mantine/form @mantine/hooks
+
+# add icon library
+
+pnpm add tabler-icons-react 
 # modify the tsconfig.json for the type-graphql
 
 https://typegraphql.com/docs/installation.html
@@ -46,3 +53,5 @@ Due to using the graphql-subscription dependency that relies on an AsyncIterator
 
 # create a graphql configuration file 
 touch .graphqlrc.json
+
+# create a layout and wrap the component inside it in the _app.tsx file
