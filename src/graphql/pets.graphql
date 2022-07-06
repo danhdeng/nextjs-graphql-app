@@ -1,0 +1,11 @@
+query getPets {
+  pets {
+    name
+    breed
+    ageInWeeks
+    image
+    sex
+    weight
+    fee
+  }
+}

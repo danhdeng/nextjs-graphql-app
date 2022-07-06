@@ -17,7 +17,10 @@ export class Pet{
     @Field(()=>[PetAttribute])
     attributes:PetAttribute[];
 
-     @Field(() => String)
+    @Field(() => [String])
+    description: string[];
+
+    @Field(() => String)
     image: string;
 
     @Field(() => Number)

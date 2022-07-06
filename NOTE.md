@@ -8,6 +8,10 @@ pnpm add graphql micro apollo-server-micro
 
 pnpm add graphql class-validator type-graphql reflect-metadata
 
+# add packages for graphql code generator
+pnpm add @graphql-codegen/cli @graphql-codegen/typescript @graphql-codegen/typescript-operations @graphql-codegen/typescript-graphql-request @graphql-codegen/typescript-react-query -D
+
+pnpm add graphql-request@"^3.4.0 graphql-tag@^2.0.0 -D
 # modify the tsconfig.json for the type-graphql
 
 https://typegraphql.com/docs/installation.html
@@ -37,3 +41,5 @@ Due to using the graphql-subscription dependency that relies on an AsyncIterator
   "lib": ["es2018", "esnext.asynciterable"]
 }
 
+# create a graphql configuration file 
+touch .graphqlrc.json
