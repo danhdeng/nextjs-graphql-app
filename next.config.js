@@ -8,6 +8,9 @@ const nextConfig = {
       config.experiments.topLevelAwait=true;
       return config;
   },
+   images: {
+    domains: ['ohspets.shelterbuddy.com'],
+  },
 }
 
 module.exports = nextConfig
